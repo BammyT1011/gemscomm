@@ -8,10 +8,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo
-        title="LiveKit Meet | Conference app build with LiveKit Open Source"
+        title="Gems Communications Progress Meeting"
         titleTemplate="%s"
-        defaultTitle="LiveKit Meet | Conference app build with LiveKit open source"
-        description="LiveKit is an open source WebRTC project that gives you everything needed to build scalable and real-time audio and/or video experiences in your applications."
+        defaultTitle="Gems Communications Progress Meeting"
+        description="Our Progress Meeting"
         twitter={{
           handle: '@livekitted',
           site: '@livekitted',
@@ -27,27 +27,27 @@ function MyApp({ Component, pageProps }: AppProps) {
               type: 'image/png',
             },
           ],
-          site_name: 'LiveKit Meet',
+          site_name: 'Progress Meeting',
         }}
         additionalMetaTags={[
           {
             property: 'theme-color',
-            content: '#070707',
+            content: '#00bcd4',
           },
         ]}
         additionalLinkTags={[
           {
             rel: 'icon',
-            href: '/favicon.ico',
+            href: '/log.png',
           },
           {
             rel: 'apple-touch-icon',
-            href: '/images/livekit-apple-touch.png',
+            href: '/images/log.png',
             sizes: '180x180',
           },
           {
             rel: 'mask-icon',
-            href: '/images/livekit-safari-pinned-tab.svg',
+            href: '/images/log.png',
             color: '#070707',
           },
         ]}

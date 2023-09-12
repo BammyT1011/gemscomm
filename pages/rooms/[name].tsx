@@ -53,8 +53,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>LiveKit Meet</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Gems Communication Progress Meeting</title>
+        <link rel="icon" href="/log.png" />
       </Head>
 
       <main data-lk-theme="default">
