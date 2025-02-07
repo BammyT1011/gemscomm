@@ -165,7 +165,7 @@ export default function Page() {
     <>
       <main className={styles.main} data-lk-theme="default">
         <div className="header">
-          <img src="/images/logo.png" alt="Gems Communications" width="360" height="45" />
+          <img src="/images/log.png" alt="Gems Communications" width="360" height="45" />
           <h2>
           Welcome to Gems Communications Limited Progress Meeting Video Conferencing Application 
           </h2>
@@ -180,7 +180,7 @@ export default function Page() {
       <footer data-lk-theme="default">
         Developed By{' '}
         <a href="https://gemscommunicationsltd.com" rel="noopener">
-          Gems LTD ICT
+          Gems Communications LTD IT/Research Unit
         </a>
         .
       </footer>
