@@ -165,14 +165,14 @@ export default function Page() {
     <>
       <main className={styles.main} data-lk-theme="default">
         <div className="header">
-          <img src="/images/logo.png" alt="Gems Communications" width="360" height="45" />
+          <img src="/images/logo.png" alt="Gems Communications" width="360" height="300" />
           <h2>
           Welcome to Gems Communications Limited Progress Meeting Video Conferencing Application 
           </h2>
         </div>
         <Suspense fallback="Loading">
           <Tabs>
-            <DemoMeetingTab label="Demo" />
+            <DemoMeetingTab label="Start Meeting" />
             {/* <CustomConnectionTab label="Custom" /> */}
           </Tabs>
         </Suspense>
